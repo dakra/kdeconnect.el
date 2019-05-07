@@ -26,10 +26,11 @@
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-;;
+
 ;; `kdeconnect.el' provides utilities for working with KDE Connect.
-;; From the KDE Connect website about what it is:
-;; https://community.kde.org/KDEConnect
+;; From their website (https://community.kde.org/KDEConnect)
+;; about the project:
+
 ;; KDE Connect is a project that enables all your devices to communicate with each other.
 ;; Here's a few things KDE Connect can do:
 
