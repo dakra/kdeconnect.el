@@ -1,6 +1,6 @@
 ;;; kdeconnect.el --- Utility functions for working with kdeconnect -*- lexical-binding: t -*-
 
-;; Copyright (c) 2019 Daniel Kraus <daniel@kraus.my>
+;; Copyright (c) 2019-2020 Daniel Kraus <daniel@kraus.my>
 
 ;; Author: Daniel Kraus <daniel@kraus.my>
 ;; URL: https://github.com/dakra/kdeconnect.el
@@ -79,7 +79,8 @@ It should not be set directly, but is instead updated by the
     (setq kdeconnect-mode-line-string
           (propertize
            (format "[%s%%]" charge)
-           'help-echo (format "%s: %s%% (%s)" name charge charging)))))
+           'help-echo (format "%s: %s%% (%s)" name charge charging))))
+  (force-mode-line-update))
 
 
 ;;; Private helper functions
